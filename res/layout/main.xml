@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/atbats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="right"
+            android:text="@string/atbats"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/atbatsnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/zero"
+            android:textSize="17sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:text="" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/average"
+            android:text="@string/average"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/averagenum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/strikeouts"
+            android:gravity="center_horizontal"
+            android:text="@string/strikeout"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/strikeoutsnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" />
+
+        <TextView>
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/hits"
+            android:text="@string/hits"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/hitsnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/groundout"
+            android:gravity="center_horizontal"
+            android:text="@string/groundout"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/groundoutnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/singles"
+            android:gravity="left"
+            android:text="@string/singles"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/singlesnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/flyouts"
+            android:gravity="center_horizontal"
+            android:text="@string/flyouts"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/flyoutsnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/doubles"
+            android:gravity="left"
+            android:text="@string/doubles"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/doublesnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lineouts"
+            android:gravity="center_horizontal"
+            android:text="@string/lineouts"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lineoutsnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/triples"
+            android:gravity="left"
+            android:text="@string/triples"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/triplesnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sacbunts"
+            android:gravity="center_horizontal"
+            android:text="@string/sacbunts"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sacbuntsnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/homeruns"
+            android:gravity="left"
+            android:text="@string/homeruns"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/homerunsnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sacflies"
+            android:gravity="center_horizontal"
+            android:text="@string/sacflies"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sacfliesnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/walks"
+            android:gravity="left"
+            android:text="@string/walks"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/walksnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/stolenbases"
+            android:gravity="center_horizontal"
+            android:text="@string/stolenbases"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/stolenbasesnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/hbp"
+            android:gravity="left"
+            android:text="@string/hbp"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/hbpnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/caughtstealing"
+            android:gravity="center_horizontal"
+            android:text="@string/stolenbaseattempts"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/caughtstealingnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/rbis"
+            android:gravity="left"
+            android:text="@string/rbi"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/rbinum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/stolenbasepercent"
+            android:gravity="center_horizontal"
+            android:text="@string/stolenbasepercent"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/stolenbasepercentnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/obp"
+            android:gravity="left"
+            android:text="@string/obp"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/obpnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/reachonerror"
+            android:gravity="center_horizontal"
+            android:text="@string/reachedonerror"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/reachedonerrornum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/runs"
+            android:gravity="left"
+            android:text="@string/runs"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/runsnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sluggingpercent"
+            android:gravity="center_horizontal"
+            android:text="@string/sluggingpercent"
+            android:textSize="17sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/sluggingpercentnum"
+            android:gravity="center_horizontal"
+            android:text="@string/zero"
+            android:textSize="17sp" >
+        </TextView>
+    </TableRow>
+   
+</TableLayout>

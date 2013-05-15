@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BatStats</string>
+    <string name="average">Avg:</string>
+    <string name="atbats">At Bats:</string>
+    <string name="hits">Hits:</string>
+    <string name="singles">Singles:</string>
+    <string name="doubles">Doubles:</string>
+    <string name="triples">Triples:</string>
+    <string name="homeruns">Homeruns:</string>
+    <string name="walks">Walks:</string>
+    <string name="hbp">Hit by Pitch:</string>
+    <string name="rbi">RBI:</string>
+    <string name="obp">OBP:</string>
+    <string name="strikeout">Strikeouts:</string>
+    <string name="groundout">Groundouts:</string>
+    <string name="flyouts">Flyouts:</string>
+    <string name="lineouts">Line Outs:</string>
+    <string name="sacbunts">Sac Bunts:</string>
+    <string name="sacflies">Sac Flies:</string>
+    <string name="stolenbases">Stolen Bases:</string>
+    <string name="stolenbaseattempts">Caught Stealing:</string>
+    <string name="stolenbasepercent">Stolen Base %:</string>
+    <string name="reachedonerror">Reached On Error:</string>
+    <string name="sluggingpercent">Slugging %:</string>
+    <string name="runs">Runs:</string>
+    <string name="zero">0</string>
+
+</resources>
